@@ -1,0 +1,49 @@
+*{
+    font-size: 1rem;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: lightgray;
+}
+ul{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    list-style: none;
+    padding: 5px 0;
+}
+input{
+    padding: 5px;
+    margin: 5px;
+}
+h1{
+    font-size: 2rem;
+}
+button , .button{
+    margin: 0 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: 1px solid dodgerblue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+button:hover{
+   background-color: dodgerblue; 
+   color: antiquewhite;
+}
+body{
+    background-color: rgb(89, 167, 245);
+    display: flex;
+    justify-content: center;
+    padding: 10% 0;
+}
+.box{
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin: 5px;
+}
